@@ -1,0 +1,12 @@
+0000000000000000 <L1-0x1c>:
+   0:   00003823                sd      zero,16(zero) # 10 <L1-0xc>
+   4:   01013183                ld      gp,16(sp)
+   8:   000181b3                add     gp,gp,zero
+   c:   00000863                beqz    zero,1c <L1>
+  10:   00318033                add     zero,gp,gp
+  14:   001081b3                add     gp,ra,ra
+  18:   0001f0b3                and     ra,gp,zero
+
+000000000000001c <L1>:
+  1c:   00116133                or      sp,sp,ra
+  20:   01013183                ld      gp,16(sp)
